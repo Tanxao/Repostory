@@ -34,31 +34,85 @@ address {
     font-style: normal;
 }
 
-.header {}
+                        /*================= HEADER ===================*/
 
-.conteiner {}
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
-.header-conteiner {}
+.conteiner {
+    width: 1128px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid red;
+}
 
-.header-nav {}
+.header-conteiner {
+    display: flex;
+    
+}
 
-.header-logo {}
+.header-nav {
+    display: flex;
+    justify-content: center;
+}
 
-.header-logo-span {}
+.header-logo {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 
-.header-nav-list {}
+.header-logo-span {
+    color: #4D5AE5;
+}
+
+.header-nav-list {
+    display: flex;
+    padding-left: 76px;
+    gap: 40px;
+}
 
 .header-nav-item {}
 
-.header-nav-link {}
+.header-nav-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
 
 .header-address {}
 
-.header-address-list {}
+.header-address-list {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
 
 .header-address-item {}
 
-.header-address-link {}
+.header-address-link {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+
+                        /*====================================*/
+
+                    /*================== MAIN ===================*/
 
 .main {}
 
@@ -81,6 +135,10 @@ address {
 .option-tatle {}
 
 .option-text {}
+
+                        /*====================================*/
+
+                    /*================== TEAM ==================*/
 
 .taem {}
 
@@ -106,6 +164,10 @@ address {
 
 .taem-link-icon-svg {}
 
+                        /*====================================*/
+
+                    /*================= PARTFOLIO ===================*/
+
 .parfolio {}
 
 .parfolio-tatle {}
@@ -125,6 +187,10 @@ address {
 .parfolio-item-tatle {}
 
 .parfolio-item-text {}
+
+                        /*====================================*/
+
+                    /*================= FOOTER ===================*/
 
 .footer {}
 
@@ -163,3 +229,5 @@ address {
 .footer-trio-btn {}
 
 .footer-trio-btn-icon {}
+
+                        /*====================================*/
